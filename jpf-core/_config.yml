@@ -1,0 +1,22 @@
+title: Java PathFinder Documentation
+description: JPF is an extensible software model checking framework for Java bytecode programs
+url: "https://mahmoud-khawaja.github.io/jpf-core"
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - _includes/add_navigation.sh
+  - _includes/fix_links.sh
+
+github_username: javapathfinder
