@@ -45,10 +45,8 @@
     padding: 0;
 }
 
-/* STICKY FOOTER SETUP */
 html {
     scroll-behavior: smooth;
-    height: 100%;
 }
 
 body {
@@ -57,9 +55,6 @@ body {
     color: var(--text-primary);
     background: var(--bg-page);
     -webkit-font-smoothing: antialiased;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 /* Skip Link */
@@ -82,7 +77,7 @@ body {
     top: 6px;
 }
 
-/* CLEAN HEADER - KEEP DESKTOP LAYOUT EXACTLY AS IS */
+/* CLEAN HEADER */
 .site-header {
     position: sticky;
     top: 0;
@@ -104,7 +99,7 @@ body {
     gap: 2rem;
 }
 
-/* Brand - KEEP EXACTLY AS IS */
+/* Brand */
 .header-brand .brand-link {
     display: flex;
     align-items: center;
@@ -125,7 +120,7 @@ body {
     color: var(--primary);
 }
 
-/* Navigation - KEEP EXACTLY AS IS */
+/* Navigation */
 .main-nav {
     flex: 1;
     display: flex;
@@ -166,7 +161,7 @@ body {
     color: var(--white);
 }
 
-/* SIMPLE DROPDOWN - KEEP EXACTLY AS IS */
+/* SIMPLE DROPDOWN */
 .dropdown {
     position: relative;
 }
@@ -242,7 +237,7 @@ body {
     transform: translateY(-1px) !important;
 }
 
-/* GitHub Link - KEEP EXACTLY AS IS */
+/* GitHub Link */
 .header-actions .github-link {
     display: flex;
     align-items: center;
@@ -262,14 +257,7 @@ body {
     background: var(--primary);
 }
 
-/* MAIN WRAPPER FOR STICKY FOOTER */
-.main-wrapper {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-/* CONTENT - KEEP EXACTLY AS IS */
+/* CONTENT */
 .main-content {
     max-width: var(--container-max);
     margin: 2rem auto;
@@ -396,24 +384,12 @@ pre code {
     font-weight: 400;
 }
 
-/* Image Styling */
-.content img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 2rem auto;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    border: 1px solid var(--border);
-}
-
-/* STICKY FOOTER */
+/* Footer */
 .site-footer {
     background: var(--gray-900);
     color: var(--white);
     padding: 2rem 0;
-    margin-top: auto;
-    flex-shrink: 0;
+    margin-top: 3rem;
 }
 
 .footer-container {
@@ -446,26 +422,21 @@ pre code {
     color: var(--white);
 }
 
-/* RESPONSIVE DESIGN - ONLY ACTIVATES ON SMALL SCREENS */
+/* RESPONSIVE */
 @media (max-width: 768px) {
     .header-container {
         flex-wrap: wrap;
         height: auto;
         min-height: var(--header-height);
         padding: 0.75rem 1rem;
-        gap: 1rem;
     }
 
     .header-brand {
         order: 1;
-        width: 100%;
-        justify-content: center;
     }
 
     .header-actions {
         order: 2;
-        width: 100%;
-        justify-content: center;
     }
 
     .main-nav {
@@ -477,14 +448,9 @@ pre code {
 
     .nav-menu {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
         gap: 0.25rem;
-    }
-
-    .nav-menu > li > a {
-        padding: 0.5rem 0.75rem;
-        font-size: 13px;
     }
 
     .dropdown-menu {
@@ -494,7 +460,6 @@ pre code {
         transform: none;
         box-shadow: var(--shadow);
         margin-top: 0.25rem;
-        border-radius: var(--border-radius);
     }
 
     .main-content {
@@ -508,52 +473,6 @@ pre code {
 
     .page-title {
         font-size: 1.875rem;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5rem;
-    }
-
-    .footer-links {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-container {
-        padding: 0.5rem;
-    }
-
-    .nav-menu > li > a {
-        padding: 0.4rem 0.6rem;
-        font-size: 12px;
-    }
-
-    .content {
-        padding: 1rem;
-    }
-
-    .page-header {
-        padding: 2rem 1rem;
-    }
-
-    .page-title {
-        font-size: 1.5rem;
-    }
-
-    h1 {
-        font-size: 1.75rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        font-size: 1.25rem;
     }
 }
 
