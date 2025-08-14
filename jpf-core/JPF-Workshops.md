@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## JPF Workshop ##
 
 The JPF workshop is an annual conference for the presentation of existing research, applications, work in progress, and position papers on topics related to JPF or its extensions. The [2017 JPF workshop](https://jpf.byu.edu/jpf-workshop-2017/) will be held in conjunction with the [ASE 2017](http://ase2017.org) conference in Urbana-Champaign, IL, on November 3, 2017.
@@ -20,6 +24,6 @@ The JPF workshop is an annual conference for the presentation of existing resear
 
 [2011 JPF Workshop](http://ti.arc.nasa.gov/events/jpf-workshop-2011/) in Lawrence, KS.
 
-[2008 JPF Workshop](http://javapathfinder.sourceforge.net/events/JPF-workshop-050108/workshop-0508/) in Sunnyvale, CA.
+[2008 JPF Workshop](http://javapathfinder.sourceforge.net/events/JPF-workshop-050108/workshop-0508.html) in Sunnyvale, CA.
 
  

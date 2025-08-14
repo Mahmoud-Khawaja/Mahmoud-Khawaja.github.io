@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 jpf-core currently builds and runs on Java 8. In this work, we introduced partial support for Java 10, leveraging the new features like modularity, strong encapsulation, while also handling the deprecates and removes. 
 
 JEPs that introduce internal changes to JPF include, but not limited to:
@@ -12,8 +16,8 @@ JEPs that introduce internal changes to JPF include, but not limited to:
 
 **JDK Release Notes**
 
-* [JDK 9 Release Notes](http://www.oracle.com/technetwork/java/javase/9-relnote-issues-3704069/)
-* [JDK 10 Release Notes](http://www.oracle.com/technetwork/java/javase/10-relnote-issues-4108729/)
+* [JDK 9 Release Notes](http://www.oracle.com/technetwork/java/javase/9-relnote-issues-3704069.html)
+* [JDK 10 Release Notes](http://www.oracle.com/technetwork/java/javase/10-relnote-issues-4108729.html)
 
 [jep-220]: http://openjdk.java.net/jeps/220
 [jep-254]: http://openjdk.java.net/jeps/254
